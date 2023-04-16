@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Doçuras da Tia Mei</title>
+</head>
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family= Lobster+Two:ital,wght@0,400;1,700 & display =swap');
+
+/* font-family: 'Lobster Two', cursive; */
+
+
+/* Cor - #F7F6F9 - Branco casca de ovo */
+
+/* Cor - #E8AFC0 - vinho primária */
+
+/* Cor - #54303A - vinho secundária */
+
+/* cor - #071015da - azul escuro */
+
+
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+    padding: 20px 30px;
+    
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.barras-hamburguer{
+    margin-top: 10px;
+}
+.hamburguer{
+    height: 2px;
+    width: 40px;
+    background-color: #071015da;
+    border: 1px;
+    border-radius: 1px;
+    margin: 8px;
+}
+
+
+.logo-nome{
+    font-family: 'Lobster Two', cursive;
+    color: #54303A;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+/* header */
+ 
+/* main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    margin-top: 60px;
+    color: #071015da;
+}
+.content{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 50px;
+    gap: 50px;
+    
+}
+.dentro{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.content-escrito{
+    padding: 5px;
+    width: 178px;
+    height: 205px;
+    align-items: center;
+}
+.titulo-content{
+    font-size: 11px;
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: 400;
+}
+.titulo-content-2{
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: 400;
+}
+.titulo-content-3{
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: 400;
+}
+.paragrafo-content{
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 10px;
+}
+.box{
+    width: 145px;
+    height: 205px;
+    border-radius: 14px;
+    background-color: #E8AFC0;
+    margin-left: 0px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+img#mousse{
+    width: 145px;
+    height: 205px;
+    border-radius: 14px;
+}
+.content-escrito{
+    display: flex;
+    flex-direction: column;
+}
+.whatsapp-button{
+    border: none;
+    color: #071015da;
+    width: 160px;
+    height: 33px;
+    border-radius: 50px;
+    font-size: 13px;
+    background-color: #e8aec16d;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.whatsapp-button span{
+    font-size: 20px;
+}
+/* main */
+    /* PARA TELAS MENORES DE 320PX */
+    
+@media(max-width:320px){
+    img{
+    width: 320px;
+    }
+    .seta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 230px;
+    margin-left: 150px;
+    color: #d53558;
+    font-family: 'Pacifico', cursive;
+    font-size: 29px;
+    }
+}
+
+</style>
+<body>
+    <header class="header">
+        <div class="barras-hamburguer">
+            <div class="hamburguer"></div>
+            <div class="hamburguer"></div>
+            <div class="hamburguer"></div>
+        </div>
+        <div class="logo-nome">
+            <h3>T i a<br>M e i</h3>
+        </div>
+    </header>
+    <main class="main">
+        <div class="titulo">
+            <h1>Sobremesas</h1>
+        </div>
+        <div class="content">
+           <div class="dentro">
+                <div class="box">
+                    <img id="mousse" src="https://i.postimg.cc/B6TL6MQD/4c08a9c4e38bfec3e1312d3f6f914272.jpg" alt="">
+            </div>
+            <div class="content-escrito">
+                <div class="titulo-content">
+                    <h2>Mousse de Morango</h2>
+                </div>
+                <div class="paragrafo-content">
+                    <p>
+                        Mousse de morango
+                        é uma sobremesa
+                        deliciosa e refrescante,
+                        perfeita para os dias
+                        quentes de verão. 
+                    </p>
+                </div>
+                <a href="https://wa.me/556296310984"><button class="whatsapp-button">
+                    <strong>Eu quero <span>   😍</span></strong>
+                </button></a>
+            </div>
+           </div>
+           
+           <div class="dentro">
+                <div class="box">
+                    <img id="mousse" src="https://i.postimg.cc/gjGDkwdz/ee9f8c25fa37bb0d336cb1c2d6c1e5fb.jpg" alt="">
+            </div>
+            <div class="content-escrito">
+                <div class="titulo-content-2">
+                    <h2>Mousse de Maracujá</h2>
+                </div>
+                <div class="paragrafo-content">
+                    <p>
+                        Feito com suco
+                        concentrado de maracujá,
+                        leite condensado, creme de leite e gelatina.
+                    </p>
+                </div>
+               <a href="https://wa.me/556296310984"><button class="whatsapp-button">
+                    <strong>Eu quero <span>   😍</span></strong>
+                </button></a>
+            </div>
+           </div>
+           
+           <div class="dentro">
+                <div class="box">
+                    <img id="mousse" src="https://i.postimg.cc/yNhwQ10p/1043a56e2f1591fe31b7bc62d1af9f72.jpg" alt="">
+            </div>
+            <div class="content-escrito">
+                <div class="titulo-content-3">
+                    <h2>Mousse de Chocolate</h2>
+                </div>
+                <div class="paragrafo-content">
+                    <p>
+                        Feito com chocolate derretido, claras de ovos, açúcar e creme de leite, seu sabor é rico, intenso e indulgente.
+                    </p>
+                </div>
+                <a href="https://wa.me/556296310984"><button class="whatsapp-button">
+                    <strong>Eu quero <span>   😍</span></strong>
+                </button></a>
+            </div>
+           </div>
+        </div>
+    </main>
+</body>
+
+</html>
